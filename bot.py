@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import re
 
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot('') // Enter key here
 
 @bot.message_handler(content_types=['text'])
 
