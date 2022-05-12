@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import re
 
-bot = telebot.TeleBot('5009230955:AAGOcsae896VqHuL-FSPFoVgGPpb6LSSGP8')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(content_types=['text'])
 
