@@ -3,11 +3,13 @@ from telebot import types
 import re
 import time
 
-bot = telebot.TeleBot('8404836007:AAEaeTzjz8MLr9GIiVqtkDRzRh8_s_y5h64') # Enter key here
+bot = telebot.TeleBot('env') # Enter key here
 
 USER_FILE = 'users.txt'
 
 ADMIN_ID = "test"
+
+
 
 @bot.message_handler(commands=['send_to_users'])
 def send_to_users(message):
